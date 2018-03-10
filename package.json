@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "clean": "lerna run clean",
+    "precommit": "pretty-quick --staged",
+    "test": "lerna run test --stream",
+    "pre-commit": "npm test",
+    "pre-push": "npm test"
+  },
+  "devDependencies": {
+    "husky": "^0.15.0-rc.8",
+    "lerna": "^2.9.0",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1"
+  }
+}
