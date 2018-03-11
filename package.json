@@ -10,6 +10,7 @@
     "precommit": "pretty-quick --staged",
     "pre-commit": "npm test",
     "pre-push": "npm test",
+    "quality": "lerna run unused --stream && lerna run lint --stream",
     "unused": "lerna run unused --stream",
     "lint": "lerna run lint --stream",
     "test": "lerna run test --stream"

@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-sensu-relay",
+  "version": "1.1.0",
+  "description": "Sensu's ESLint config (for use with react-relay.)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sensu/eslint-config-sensu/packages/eslint-config-sensu-relay"
+  },
+  "bugs": {
+    "url": "https://github.com/sensu/eslint-config-sensu/issues"
+  },
+  "homepage": "https://github.com/sensu/eslint-config-sensu",
+  "keywords": [
+    "eslint",
+    "style-linter",
+    "linting",
+    "relay"
+  ],
+  "author": "James Phillips (jamesdphillips@gmail.com)",
+  "contributors": [
+    {
+      "name": "James Phillips",
+      "url": "https://twitter.com/_jamesdphillips"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "unused": "eslint-find-rules --unused ./node.js",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "eslint-config-sensu": "^1.1.0",
+    "eslint-plugin-graphql": "^1.5.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-find-rules": "^3.2.1",
+    "prettier": "^1.11.1"
+  }
+}
