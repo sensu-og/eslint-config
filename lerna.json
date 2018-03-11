@@ -1,12 +1,16 @@
 {
   "lerna": "2.9.0",
-  "packages": [
-    "packages/*"
-  ],
+  "useWorkspaces": true,
   "version": "1.1.0",
   "npmClient": "yarn",
-  "npmClientArgs": [
-    "--production",
-    "--no-optional"
-  ]
+  "changelog": {
+    "repo": "sensu/eslint-config-sensu",
+    "labels": {
+      "tag: enhancement": ":nail_care: Enhancement",
+      "tag: breaking change": ":boom: Breaking Change",
+      "tag: bug fix": ":bug: Bug Fix",
+      "tag: documentation": ":memo: Documentation"
+    },
+    "cacheDir": ".changelog"
+  }
 }

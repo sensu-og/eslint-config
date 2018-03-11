@@ -1,8 +1,12 @@
 {
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
+    "changelog": "lerna-changelog",
     "clean": "lerna run clean",
-    "postinstall": "lerna bootstrap",
+    "postinstall": "# lerna bootstrap",
     "precommit": "pretty-quick --staged",
     "pre-commit": "npm test",
     "pre-push": "npm test",
@@ -11,6 +15,7 @@
   "devDependencies": {
     "husky": "^0.15.0-rc.8",
     "lerna": "^2.9.0",
+    "lerna-changelog": "^0.7.0",
     "prettier": "^1.11.1",
     "pretty-quick": "^1.4.1"
   }
