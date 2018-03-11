@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^2.9.0",
-    "eslint-config-sensu": "^1.0.1",
+    "eslint-config-sensu": "^1.1.0",
     "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-prettier": "^2.6.0"
   },

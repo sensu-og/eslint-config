@@ -7,6 +7,7 @@ module.exports = {
     "./rules/strict",
     "./rules/modern",
     "./rules/imports",
+    "./rules/filenames",
     "./rules/style",
   ].map(require.resolve),
   parser: "babel-eslint",
