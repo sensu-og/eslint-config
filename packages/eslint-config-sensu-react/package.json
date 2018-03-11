@@ -26,9 +26,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "no-missing": "./node_modules/.bin/eslint-find-rules --unused ./node.js",
-    "lint": "./node_modules/.bin/eslint . --max-warnings 0",
-    "test": "npm run no-missing && npm run lint"
+    "unused": "eslint-find-rules --unused ./node.js",
+    "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
     "eslint-config-prettier": "^2.9.0",

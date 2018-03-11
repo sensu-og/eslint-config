@@ -5,11 +5,13 @@
   ],
   "scripts": {
     "changelog": "lerna-changelog",
-    "clean": "lerna run clean",
+    "clean": "lerna clean",
     "postinstall": "# lerna bootstrap",
     "precommit": "pretty-quick --staged",
     "pre-commit": "npm test",
     "pre-push": "npm test",
+    "unused": "lerna run unused --stream",
+    "lint": "lerna run lint --stream",
     "test": "lerna run test --stream"
   },
   "devDependencies": {

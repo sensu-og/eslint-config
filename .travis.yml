@@ -2,6 +2,9 @@ sudo: false
 language: node_js
 node_js:
   - "node"
+script:
+  - 'yarn lint'
+  - 'yarn unused'
 cache:
   yarn: true
   directories:
