@@ -1,0 +1,9 @@
+sudo: false
+language: node_js
+node_js:
+  - "node"
+cache:
+  yarn: true
+  directories:
+    - packages/eslint-config-sensu/node_modules
+    - packages/eslint-config-sensu-react/node_modules
