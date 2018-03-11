@@ -1,0 +1,47 @@
+{
+  "name": "eslint-config-sensu-flow",
+  "version": "1.0.1",
+  "description": "Sensu's ESLint config (for use with Flow.)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sensu/eslint-config-sensu/packages/eslint-config-sensu-flow"
+  },
+  "bugs": {
+    "url": "https://github.com/sensu/eslint-config-sensu/issues"
+  },
+  "homepage": "https://github.com/sensu/eslint-config-sensu",
+  "keywords": [
+    "eslint",
+    "style-linter",
+    "linting",
+    "flow"
+  ],
+  "author": "James Phillips (jamesdphillips@gmail.com)",
+  "contributors": [
+    {
+      "name": "James Phillips",
+      "url": "https://twitter.com/_jamesdphillips"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "no-missing": "./node_modules/.bin/eslint-find-rules --unused ./node.js",
+    "lint": "./node_modules/.bin/eslint . --max-warnings 0",
+    "test": "npm run no-missing && npm run lint",
+    "clean": "git clean -fdX ."
+  },
+  "dependencies": {
+    "eslint-config-sensu": "^1.0.1",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-prettier": "^2.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-find-rules": "^3.2.1",
+    "prettier": "^1.11.1"
+  }
+}

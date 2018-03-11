@@ -1,6 +1,6 @@
-# eslint-config-sensu
+# eslint-config-sensu-flow
 
-This package provides Sensu's core Javascript ESLint settings as an extensible
+This package provides Sensu's Flowtype ESLint settings as an extensible
 configuration.
 
 ![version](http://img.shields.io/npm/v/eslint-config-sensu.svg?style=flat-square)
@@ -12,11 +12,11 @@ configuration.
 First, add the package to your project.
 
 ```sh
-yarn add --dev eslint eslint-config-sensu
+yarn add --dev eslint eslint-config-sensu-flow
 
 # or with npm
 
-npm install --save-dev eslint eslint-config-sensu
+npm install --save-dev eslint eslint-config-sensu-flow
 ```
 
 If you did not already have an `.eslintrc` file you can add one.
@@ -30,7 +30,8 @@ Finally, add the following to your `.eslintrc`.
 ```json
 {
   "extends": [
-    "sensu"
+    "sensu",
+    "sensu-flow"
   ]
 }
 ```
