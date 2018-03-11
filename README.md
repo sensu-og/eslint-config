@@ -22,7 +22,8 @@
 
 This repository is a monorepo that we manage using [Lerna](https://github.com/lerna/lerna). That means that we actually publish [several packages](/packages) to npm from the same codebase, including:
 
-| Package | Version | Description |
+| Package | Version | Docs | Description |
 | --- | --- | --- |
-| [`eslint-config-sensu`](/packages/eslint-config-sensu) | [![npm](https://img.shields.io/npm/v/eslint-config-sensu.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-sensu) | The core configuration |
+| [`eslint-config-sensu`](/packages/eslint-config-sensu) | [![npm](https://img.shields.io/npm/v/eslint-config-sensu.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-sensu) | [![](https://img.shields.io/badge/docs-readme-orange.svg?style=flat-square)](/packages/eslint-config-sensu-react/#readme) | Useful when working with modern Javascript. |
+| [`eslint-config-sensu-react`](/packages/eslint-config-sensu-react) | [![npm](https://img.shields.io/npm/v/eslint-config-sensu-react.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-sensu-react) | [![](https://img.shields.io/badge/docs-readme-orange.svg?style=flat-square)](/packages/eslint-config-sensu-react/#readme) | Useful when working with React. |
 
