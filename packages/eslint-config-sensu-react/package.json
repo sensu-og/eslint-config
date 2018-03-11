@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sensu-react",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Sensu's ESLint config (for React.)",
   "main": "index.js",
   "repository": {
