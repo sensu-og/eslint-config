@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sensu-flow",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Sensu's ESLint config (for use with Flow.)",
   "main": "index.js",
   "repository": {
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^2.9.0",
-    "eslint-config-sensu": "^1.1.0",
+    "eslint-config-sensu": "^1.2.0",
     "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-prettier": "^2.6.0"
   },
