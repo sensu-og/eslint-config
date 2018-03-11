@@ -27,8 +27,7 @@
   "scripts": {
     "no-missing": "eslint-find-rules --unused ./node.js",
     "lint": "eslint . --max-warnings 0",
-    "test": "npm run no-missing && npm run lint",
-    "clean": "git clean -fdX ."
+    "test": "npm run no-missing && npm run lint"
   },
   "dependencies": {
     "babel-eslint": "^8.2.2",
