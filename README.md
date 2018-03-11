@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/eslint-config-sensu"><img src="https://img.shields.io/npm/v/eslint-config-sensu.svg?style=flat-square"></a>
   <a href="https://www.npmjs.com/package/eslint-config-sensu"><img src="https://img.shields.io/npm/dm/eslint-config-sensu.svg?style=flat-square"></a>
-  <a href="https://travis-ci.org/ReactTraining/eslint-config-sensu"><img src="https://img.shields.io/travis/sensu/eslint-config-sensu/master.svg?style=flat-square"></a>
+  <a href="https://travis-ci.org/sensu/eslint-config-sensu"><img src="https://img.shields.io/travis/sensu/eslint-config-sensu/master.svg?style=flat-square"></a>
 </p>
 
 ## Packages
