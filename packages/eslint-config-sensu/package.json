@@ -25,8 +25,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "no-missing": "eslint-find-rules --unused ./node.js",
-    "lint": "eslint . --max-warnings 0",
+    "no-missing": "./node_modules/.bin/eslint-find-rules --unused ./node.js",
+    "lint": "./node_modules/.bin/eslint . --max-warnings 0",
     "test": "npm run no-missing && npm run lint",
     "clean": "git clean -fdX ."
   },
