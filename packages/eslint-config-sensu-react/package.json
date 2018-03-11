@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-sensu",
+  "name": "eslint-config-sensu-react",
   "version": "1.0.1",
-  "description": "Sensu's ESLint config",
+  "description": "Sensu's ESLint config (for React.)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sensu/eslint-config-sensu/packages/eslint-config-sensu"
+    "url": "https://github.com/sensu/eslint-config-sensu/packages/eslint-config-sensu-react"
   },
   "bugs": {
     "url": "https://github.com/sensu/eslint-config-sensu/issues"
@@ -14,7 +14,8 @@
   "keywords": [
     "eslint",
     "style-linter",
-    "linting"
+    "linting",
+    "react"
   ],
   "author": "James Phillips (jamesdphillips@gmail.com)",
   "contributors": [
@@ -30,18 +31,24 @@
     "test": "npm run no-missing && npm run lint"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.0"
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-sensu": "^1.0.1"
   },
   "peerDependencies": {
-    "eslint": "^4.18.2"
+    "eslint": "^4.18.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
   },
   "devDependencies": {
     "eslint": "^4.18.2",
     "eslint-find-rules": "^3.2.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
     "prettier": "^1.11.1"
+  },
+  "engines": {
+    "node": ">= 8"
   }
 }
