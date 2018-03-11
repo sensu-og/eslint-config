@@ -2,10 +2,11 @@
   "private": true,
   "scripts": {
     "clean": "lerna run clean",
+    "postinstall": "lerna bootstrap",
     "precommit": "pretty-quick --staged",
-    "test": "lerna run test --stream",
     "pre-commit": "npm test",
-    "pre-push": "npm test"
+    "pre-push": "npm test",
+    "test": "lerna run test --stream"
   },
   "devDependencies": {
     "husky": "^0.15.0-rc.8",
