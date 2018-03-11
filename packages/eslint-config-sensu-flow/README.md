@@ -35,3 +35,23 @@ Finally, add the following to your `.eslintrc`.
   ]
 }
 ```
+
+### React
+
+When used in concert with React you may want to remove the `prop-types` rule as
+it will likely be duplicate effort. To do so add the following to your
+`.eslintrc` file.
+
+
+```json
+{
+  "extends": [
+    "sensu",
+    "sensu-flow",
+    "sensu-react"
+  ],
+  "rules": {
+    "react/prop-types": "off",
+  }
+}
+```
