@@ -22,6 +22,7 @@
 
 This repository is a monorepo that we manage using [Lerna](https://github.com/lerna/lerna). That means that we actually publish [several packages](/packages) to npm from the same codebase, including:
 
-| Package                                                | Version                                                                                                                                   | Description                                                                        |
-| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [`eslint-config-sensu`](/packages/eslint-config-sensu)               | [![npm](https://img.shields.io/npm/v/eslint-config-sensu.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-sensu)                     | The core of React Router                                                           |
+| Package | Version | Description |
+| --- | --- | --- |
+| [`eslint-config-sensu`](/packages/eslint-config-sensu) | [![npm](https://img.shields.io/npm/v/eslint-config-sensu.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-sensu) | The core configuration |
+
