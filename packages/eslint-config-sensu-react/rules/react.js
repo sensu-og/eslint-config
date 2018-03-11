@@ -22,6 +22,20 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/v7.7.0/docs/rules/no-direct-mutation-state.md
     "react/no-direct-mutation-state": "error",
 
+    // While I prefer stateless functional components, since not every component
+    // can be one, I'd rather be consistent and extend React.Component.
+    // https://github.com/yannickcr/eslint-plugin-react/blob/v7.7.0/docs/rules/prefer-es6-class.md
+    "react/prefer-es6-class": "error",
+
+    // See above.
+    // https://github.com/yannickcr/eslint-plugin-react/blob/v7.7.0/docs/rules/prefer-stateless-function.md
+    "react/prefer-stateless-function": "off",
+
+    // While very ideal, can make working with CSS in JS quite difficult at
+    // times. Flowtype should be preferred over prop types in the first place.
+    // https://github.com/yannickcr/eslint-plugin-react/blob/v7.7.0/docs/rules/forbid-prop-types.md
+    "react/forbid-prop-types": "off",
+
     // ------------------------------------
     // Rules not present in v16.1.0 release
     // ------------------------------------
