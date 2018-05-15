@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sensu-relay",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Sensu's ESLint config (for use with react-relay.)",
   "main": "index.js",
   "repository": {
@@ -30,7 +30,7 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "eslint-config-sensu": "^1.2.0",
+    "eslint-config-sensu": "^1.3.0",
     "eslint-plugin-graphql": "^1.5.0"
   },
   "peerDependencies": {
