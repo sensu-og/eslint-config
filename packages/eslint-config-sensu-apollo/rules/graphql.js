@@ -7,8 +7,7 @@ module.exports = {
     // https://github.com/apollographql/eslint-plugin-graphql#no-deprecated-fields-validation-rule
     "graphql/no-deprecated-fields": "error",
 
-    // This rule enforces that first letter of types is capitalized. Enabled as
-    // relay-compilerwill spew if you names do not match component
+    // This rule enforces that first letter of types is capitalized.
     // https://github.com/apollographql/eslint-plugin-graphql#capitalization-of-a-first-letter-of-a-type-name
     "graphql/capitalized-type-name": "error",
 
@@ -23,7 +22,6 @@ module.exports = {
 
     // The Named Operation rule validates that all operations are named. Naming
     // operations is valuable for including in server-side logs and debugging.
-    // Enabled as relay-compiler will spew unless operation name is prseent.
     // https://github.com/apollographql/eslint-plugin-graphql#named-operations-validation-rule
     "graphql/named-operations": "error",
 
@@ -37,7 +35,7 @@ module.exports = {
         // schemaJson: "...",
 
         // See full list of rules here.
-        // https://github.com/graphql/graphql-js/blob/v0.13.1/src/validation/specifiedRules.js#L93-L126
+        // https://github.com/graphql/graphql-js/blob/v0.13.2/src/validation/specifiedRules.js#L93-L126
         validators: [
           "ExecutableDefinitions",
           "UniqueOperationNames",
@@ -53,11 +51,14 @@ module.exports = {
           "PossibleFragmentSpreads",
           "NoFragmentCycles",
           "UniqueVariableNames",
+          "NoUndefinedVariables",
           "NoUnusedVariables",
+          "KnownDirectives",
           "UniqueDirectivesPerLocation",
           "KnownArgumentNames",
           "UniqueArgumentNames",
           "ValuesOfCorrectType",
+          "ProvidedNonNullArguments",
           "VariablesDefaultValueAllowed",
           "VariablesInAllowedPosition",
           "OverlappingFieldsCanBeMerged",
@@ -67,15 +68,11 @@ module.exports = {
           // Unhelpful when validating client queries
           // ----------------------------------------
           //
-          // "KnownDirectives",
           // "KnownFragmentNames",
-          // "NoUndefinedVariables",
           // "NoUnusedFragments",
-          // "ProvidedNonNullArguments",
-          // "ScalarLeafs",
           //
         ],
-        env: "relay",
+        env: "apollo",
       },
     ],
   },

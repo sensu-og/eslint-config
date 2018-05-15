@@ -53,5 +53,9 @@ module.exports = {
     // Ensures that there are no useless path segments.
     // https://github.com/benmosher/eslint-plugin-import/blob/v2.9.0/docs/rules/no-useless-path-segments.md
     "import/no-useless-path-segments": "error",
+
+    // Ensures that there is no resolvable path back to this module via its dependencies.
+    // https://github.com/benmosher/ures that there is no resolvable path back to this module via its dependencies.
+    "import/no-cycle": "off",
   },
 };
