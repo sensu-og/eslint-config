@@ -26,6 +26,12 @@ module.exports = {
       },
     ],
 
+    // https://github.com/gajus/eslint-plugin-flowtype#array-style-complex-type
+    "flowtype/array-style-complex-type": "error",
+
+    // https://github.com/gajus/eslint-plugin-flowtype#array-style-simple-type
+    "flowtype/array-style-simple-type": "error",
+
     // -----------------------------------------
     // Options not present in recommended config
     // -----------------------------------------

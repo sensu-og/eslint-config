@@ -1,5 +1,5 @@
 const extensions = [
-  "eslint-config-sensu",
+  "@sensuapp/eslint-config",
   "./rules/react",
   "./rules/react-a11y",
 ];

@@ -4,7 +4,7 @@
   "version": "1.3.0",
   "npmClient": "yarn",
   "changelog": {
-    "repo": "sensu/eslint-config-sensu",
+    "repo": "sensu/eslint-config",
     "labels": {
       "tag: enhancement": ":nail_care: Enhancement",
       "tag: breaking change": ":boom: Breaking Change",

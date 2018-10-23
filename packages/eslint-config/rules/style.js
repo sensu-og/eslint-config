@@ -8,6 +8,10 @@ module.exports = {
     // https://github.com/prettier/eslint-plugin-prettier/blob/v2.6.0/README.md
     "prettier/prettier": "error",
 
+    // Prefer use of an object spread over Object.assign
+    // https://eslint.org/docs/rules/prefer-object-spread
+    "prefer-object-spread": "error",
+
     // Open to re-enabling rules that do not conflict with prettier and provide
     // exceptional value.
     camelcase: "off",
@@ -24,6 +28,7 @@ module.exports = {
     "lines-between-class-members": "off",
     "max-depth": "off",
     "max-lines": "off",
+    "max-lines-per-function": "off",
     "max-nested-callbacks": "off",
     "max-params": "off",
     "max-statements": "off",

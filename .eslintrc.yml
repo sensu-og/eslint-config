@@ -1,2 +1,2 @@
 ---
-extends: "./packages/eslint-config-sensu/node.js"
+extends: "./packages/eslint-config/node.js"

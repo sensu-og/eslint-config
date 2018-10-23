@@ -1,21 +1,21 @@
 {
-  "name": "eslint-config-sensu-flow",
+  "name": "@sensuapp/eslint-config-apollo",
   "version": "1.3.0",
-  "description": "Sensu's ESLint config (for use with Flow.)",
+  "description": "Sensu's ESLint config (for use with apollo-graphql.)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sensu/eslint-config-sensu/packages/eslint-config-sensu-flow"
+    "url": "https://github.com/sensu/eslint-config/packages/eslint-config-apollo"
   },
   "bugs": {
-    "url": "https://github.com/sensu/eslint-config-sensu/issues"
+    "url": "https://github.com/sensu/eslint-config/issues"
   },
-  "homepage": "https://github.com/sensu/eslint-config-sensu",
+  "homepage": "https://github.com/sensu/eslint-config",
   "keywords": [
     "eslint",
     "style-linter",
     "linting",
-    "flow"
+    "apollo"
   ],
   "author": "James Phillips (jamesdphillips@gmail.com)",
   "contributors": [
@@ -30,17 +30,16 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-config-sensu": "^1.3.0",
-    "eslint-plugin-flowtype": "^2.46.1",
-    "eslint-plugin-prettier": "^2.6.0"
+    "@sensuapp/eslint-config": "^1.3.0",
+    "eslint-plugin-graphql": "^2.1.0"
   },
   "peerDependencies": {
-    "eslint": "^4.18.2"
+    "eslint": "^5.3.0"
   },
   "devDependencies": {
-    "eslint": "^4.18.2",
+    "eslint": "^5.3.0",
     "eslint-find-rules": "^3.2.1",
+    "graphql": "^0.13.2",
     "prettier": "^1.11.1"
   }
 }

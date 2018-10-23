@@ -36,6 +36,14 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/v7.7.0/docs/rules/forbid-prop-types.md
     "react/forbid-prop-types": "off",
 
+    // Enforces that there is exactly one space between two JSX attributes or the JSX tag name and the first JSX attribute in the same line.
+    // https://github.com/yannickcr/eslint-plugin-react/blob/64ef4b8ccb33db7c9a9f75c562f98cd31d64c256/docs/rules/jsx-props-no-multi-spaces.md
+    "react/jsx-props-no-multi-spaces": "error",
+
+    // Certain legacy lifecycle methods are unsafe for use in async React applications and cause warnings in strict mode. These also happen to be the lifecycles that cause the most confusion within the React community.
+    // https://github.com/yannickcr/eslint-plugin-react/blob/5b08a1e7392ea2b4d03ac615c14a71723fc615f2/docs/rules/no-unsafe.md
+    "react/no-unsafe": "error",
+
     // ------------------------------------
     // Rules not present in v16.1.0 release
     // ------------------------------------
