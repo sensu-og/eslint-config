@@ -1,6 +1,6 @@
 {
   "name": "@sensuapp/eslint-config-flow",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Sensu's ESLint config (for use with Flow.)",
   "main": "index.js",
   "repository": {
