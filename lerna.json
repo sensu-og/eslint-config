@@ -1,8 +1,8 @@
 {
-  "lerna": "2.9.0",
+  "lerna": "3.4.0",
   "useWorkspaces": true,
   "version": "1.3.0",
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "changelog": {
     "repo": "sensu/eslint-config",
     "labels": {
@@ -12,5 +12,8 @@
       "tag: documentation": ":memo: Documentation"
     },
     "cacheDir": ".changelog"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
