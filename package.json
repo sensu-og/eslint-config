@@ -5,21 +5,21 @@
   ],
   "scripts": {
     "changelog": "lerna-changelog",
-    "clean": "lerna clean",
+    "clean": "./node_modules/.bin/lerna clean",
     "postinstall": "# lerna bootstrap",
     "precommit": "pretty-quick --staged",
     "pre-commit": "npm test",
     "pre-push": "npm test",
-    "quality": "lerna run unused --stream && lerna run lint --stream",
-    "unused": "lerna run unused --stream",
-    "lint": "lerna run lint --stream",
-    "test": "lerna run test --stream"
+    "quality": "./node_modules/.bin/lerna run unused --stream && lerna run lint --stream",
+    "unused": "./node_modules/.bin/lerna run unused --stream",
+    "lint": "./node_modules/.bin/lerna run lint --stream",
+    "test": "./node_modules/.bin/lerna run test --stream"
   },
   "devDependencies": {
     "husky": "^0.15.0-rc.8",
-    "lerna": "^3.4.0",
-    "lerna-changelog": "^0.7.0",
-    "prettier": "^1.11.1",
-    "pretty-quick": "^1.4.1"
+    "lerna": "^3.16.4",
+    "lerna-changelog": "^0.8.2",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1"
   }
 }

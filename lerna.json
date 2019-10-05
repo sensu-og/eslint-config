@@ -13,6 +13,11 @@
     },
     "cacheDir": ".changelog"
   },
+  "packages": [
+    "packages/eslint-config",
+    "packages/eslint-config-react",
+    "packages/eslint-config-apollo"
+  ],
   "publishConfig": {
     "access": "public"
   }

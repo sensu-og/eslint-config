@@ -49,6 +49,7 @@ module.exports = {
           "UniqueFragmentNames",
           "KnownFragmentNames",
           "PossibleFragmentSpreads",
+          "ProvidedRequiredArguments",
           "NoFragmentCycles",
           "UniqueVariableNames",
           "NoUndefinedVariables",
@@ -58,8 +59,6 @@ module.exports = {
           "KnownArgumentNames",
           "UniqueArgumentNames",
           "ValuesOfCorrectType",
-          "ProvidedNonNullArguments",
-          "VariablesDefaultValueAllowed",
           "VariablesInAllowedPosition",
           "OverlappingFieldsCanBeMerged",
           "UniqueInputFieldNames",
@@ -70,6 +69,7 @@ module.exports = {
           //
           // "KnownFragmentNames",
           // "NoUnusedFragments",
+          // "VariablesDefaultValueAllowed",
           //
         ],
         env: "apollo",
