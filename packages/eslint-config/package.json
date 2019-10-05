@@ -1,6 +1,6 @@
 {
   "name": "@sensuapp/eslint-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Sensu's ESLint config",
   "main": "index.js",
   "repository": {
@@ -29,7 +29,7 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@sensuapp/eslint-plugin": "^1.4.0",
+    "@sensuapp/eslint-plugin": "^1.5.0",
     "babel-eslint": "^8.2.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.3.0",
