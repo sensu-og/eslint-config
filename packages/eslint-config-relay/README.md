@@ -1,3 +1,7 @@
+# Unmaintained
+
+No longer maintained, kept for historical purposes.
+
 # @sensuapp/eslint-config-relay
 
 This package provides Sensu's [Relay](https://facebook.github.io/relay)

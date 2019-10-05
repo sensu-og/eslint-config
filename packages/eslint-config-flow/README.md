@@ -1,3 +1,7 @@
+# Unmaintained
+
+No longer maintained, kept for historical purposes.
+
 # @sensuapp/eslint-config-flow
 
 This package provides Sensu's Flowtype ESLint settings as an extensible

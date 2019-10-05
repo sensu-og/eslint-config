@@ -55,5 +55,7 @@ module.exports = {
     "sort-keys": "off",
     "sort-vars": "off",
     "spaced-comment": "off",
+    "default-param-last": "off",
+    "prefer-regex-literals": "off",
   },
 };

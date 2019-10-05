@@ -16,5 +16,9 @@ module.exports = {
     // to not just a null, but also an undefined value.
     // https://eslint.org/docs/rules/no-eq-null
     "no-eq-null": "error",
+
+    // The updates of imported bindings by ES Modules cause runtime errors.
+    // https://eslint.org/docs/rules/no-import-assign
+    "no-import-assign": "error",
   },
 };

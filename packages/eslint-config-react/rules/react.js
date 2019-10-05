@@ -89,5 +89,10 @@ module.exports = {
     // Prevent this from being used in stateless functional components
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/no-this-in-sfc.md
     "react/no-this-in-sfc": "error",
+
+    // A fragment is redundant if it contains only one child, or if it is the
+    // child of a html element, and is not a keyed fragment.
+    // https://github.com/yannickcr/eslint-plugin-react/blob/7ccff100909ec510c3eebaee7c5ed658773ebcf0/docs/rules/jsx-no-useless-fragment.md
+    "react/jsx-no-useless-fragment": "error",
   },
 };
