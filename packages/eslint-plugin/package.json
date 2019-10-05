@@ -1,4 +1,27 @@
 {
   "name": "@sensuapp/eslint-plugin",
-  "version": "0.0.0"
+  "version": "1.4.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sensu/eslint-config/packages/eslint-config-flow"
+  },
+  "bugs": {
+    "url": "https://github.com/sensu/eslint-config/issues"
+  },
+  "homepage": "https://github.com/sensu/eslint-config",
+  "keywords": [
+    "eslint",
+    "style-linter",
+    "linting"
+  ],
+  "author": "Neal Granger",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "prettier": "^1.11.1"
+  }
 }
