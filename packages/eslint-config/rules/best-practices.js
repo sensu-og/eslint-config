@@ -1,6 +1,8 @@
 module.exports = {
   extends: [require.resolve("eslint-config-airbnb-base/rules/best-practices")],
 
+  plugins: ["@sensuapp"],
+
   rules: {
     // specify the maximum cyclomatic complexity allowed in a program
     // https://eslint.org/docs/rules/complexity
@@ -20,5 +22,8 @@ module.exports = {
     // The updates of imported bindings by ES Modules cause runtime errors.
     // https://eslint.org/docs/rules/no-import-assign
     "no-import-assign": "error",
+
+    // Disallow global flag on RegExp literals
+    "@sensuapp/no-global-regex": "error",
   },
 };
