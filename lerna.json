@@ -15,8 +15,9 @@
   },
   "packages": [
     "packages/eslint-config",
+    "packages/eslint-config-apollo",
     "packages/eslint-config-react",
-    "packages/eslint-config-apollo"
+    "packages/eslint-plugin"
   ],
   "publishConfig": {
     "access": "public"
