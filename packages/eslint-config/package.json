@@ -43,5 +43,6 @@
     "eslint": "^6.5.1",
     "eslint-find-rules": "^3.3.1",
     "prettier": "^1.18.2"
-  }
+  },
+  "gitHead": "44285315cc75a7e4684ee8bba69c64261a0fcb42"
 }

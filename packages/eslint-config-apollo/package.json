@@ -41,5 +41,6 @@
     "eslint-find-rules": "^3.2.1",
     "graphql": "^14.0.0",
     "prettier": "^1.18.2"
-  }
+  },
+  "gitHead": "44285315cc75a7e4684ee8bba69c64261a0fcb42"
 }
